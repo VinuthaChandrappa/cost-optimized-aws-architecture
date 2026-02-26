@@ -21,7 +21,7 @@ VPC Endpoints for secure private communication
 
 The goal is to reduce AWS cost by avoiding NAT Gateway and public exposure while maintaining secure access using AWS Systems Manager (SSM).
 
-🏗 Architecture Components
+Architecture Components
 
 VPC with CIDR 10.0.0.0/16
 
@@ -60,7 +60,8 @@ AWS Systems Manager
 ├── iam.tf
 ├── variables.tf
 ├── outputs.tf
-└── README.md
+└── README.md   
+
 ▶️ How to Run
 terraform init
 terraform plan
